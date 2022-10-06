@@ -1,0 +1,43 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(200px,auto);
+  grid-column-gap: 10px;
+  
+}
+.superhero{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  
+}
+#three{
+  text-align: center;
+  justify-content: flex-start;
+  display: flex;
+  
+}
+.heros,.villans{
+  margin: 5px;
+  border: 2px solid #D4D4D4;
+  border-radius: 10px;
+ 
+}
+.Scores{
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: center;
+  
+}
+.score{
+  font-size: xx-large;
+}
+
+
+
+.footer{
+  margin-left : 80px;
+  font-size : 18px;
+}

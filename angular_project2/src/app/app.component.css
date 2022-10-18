@@ -1,0 +1,21 @@
+.form{
+    text-align: center;
+    padding: 30px;
+    color: rgb(60, 60, 118);
+}
+
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 1.0;
+    color: rgb(11, 70, 50);
+    border-color: blue;
+  }
